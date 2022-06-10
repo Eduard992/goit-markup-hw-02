@@ -1,0 +1,229 @@
+:root {
+    /* background color*/
+    --main-bg-color: #ffffff;
+    --second-bg-color: #2f303a;
+    --third-bg-color: #f5f4fa;
+
+    /* font color */
+    --main-txt-color: #212121;
+    --second-txt-color: #757575;
+    --third-txt-color: #ffffff;
+    --hover-txt-color: #2196f3;
+}
+
+/* !!!!!STUDIO!!!!! */
+
+
+/* body  */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: var(--main-txt-color);
+}
+
+/* header */
+
+.logo {
+    color: var(--main-txt-color);
+}
+
+.web {
+    color: var(--hover-txt-color);
+}
+
+.site-nav,
+.link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    color: var(--main-txt-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-txt-color);
+}
+
+.contacts {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--second-txt-color)
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--hover-txt-color);
+}
+
+/* Main */
+
+.heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: red
+}
+
+
+
+
+.button-order {
+    background-color: var(--hover-txt-color);
+    color: var(--third-txt-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-style: none;
+}
+
+/* features */
+
+.features {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-txt-color)
+}
+
+.features-txt {
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: var(--second-txt-color)
+}
+
+/* our team */
+.team-features {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-color)
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+.team-names {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-color)
+}
+
+.team-positions {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--second-txt-color)
+}
+
+/* footer */
+/* address color white */
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: red;
+}
+
+
+/* !!!!!!PORTFOLIO!!!! */
+
+/* filters */
+.filter {
+    list-style-type: none;
+}
+
+.filter-list {
+    border-color: #ffffff;
+    background-color: var(--third-bg-color) font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-color)
+}
+
+.filter-list:hover,
+.filter-list:focus {
+    background-color: var(--hover-txt-color);
+    color: var(--third-txt-color)
+}
+
+
+.portfolio-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: var(--main-txt-color)
+}
+
+.portfolio-expl {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: var(--second-txt-color)
+}
