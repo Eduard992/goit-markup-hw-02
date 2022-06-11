@@ -13,7 +13,7 @@
 
 /*  hide */
 .hide {
-    color:var(--third-txt-color);
+    color: var(--third-txt-color);
 }
 
 /* !!!!!STUDIO!!!!! */
@@ -22,14 +22,20 @@
 /* body  */
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
     color: var(--main-txt-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 /* header */
 
 .logo {
     color: var(--main-txt-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+
 }
 
 .web {
@@ -38,6 +44,7 @@ body {
 
 .site-nav,
 .link {
+    text-decoration: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -52,6 +59,11 @@ body {
 .site-nav .link:focus {
     color: var(--hover-txt-color);
 }
+
+.link-current {
+    color: var(--hover-txt-color);
+}
+
 
 .contacts {
     font-family: "Roboto";
@@ -71,18 +83,8 @@ body {
 
 /* Main */
 
-.heading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    color: red
+.heading-bg {
+    background-color: var(--second-bg-color);
 }
 
 
@@ -131,6 +133,10 @@ body {
 }
 
 /* our team */
+.our-team {
+    background-color: var(--main-bg-color);
+}
+
 .team-features {
     font-family: 'Roboto';
     font-style: normal;
