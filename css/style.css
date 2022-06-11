@@ -31,7 +31,7 @@ body {
 /* header */
 
 .logo {
-    color: var(--main-txt-color);
+    color: var(--hover-txt-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -39,7 +39,7 @@ body {
 }
 
 .web {
-    color: var(--hover-txt-color);
+    color: var(--main-txt-color)
 }
 
 
@@ -122,11 +122,8 @@ body {
 }
 
 .features {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -139,6 +136,11 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--second-txt-color)
+}
+
+/* what We Do */
+.wedo {
+    list-style: none;
 }
 
 /* our team */
@@ -187,7 +189,14 @@ body {
 }
 
 /* footer */
-/* address color white */
+.footer {
+    background-color: var(--second-bg-color);
+}
+
+.webf {
+    color: var(--third-txt-color);
+}
+
 .address {
     font-family: 'Roboto';
     font-style: normal;
@@ -196,8 +205,18 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: red;
+    color: var(--third-txt-color);
 }
+
+.contactsf {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+
 
 
 /* !!!!!!PORTFOLIO!!!! */
@@ -208,15 +227,13 @@ body {
 }
 
 .filter-list {
-    border-color: #ffffff;
-    background-color: var(--third-bg-color) font-family: 'Roboto';
-    font-style: normal;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-
-    color: var(--main-txt-color)
 }
 
 .filter-list:hover,
@@ -225,25 +242,21 @@ body {
     color: var(--third-txt-color)
 }
 
+.portfolio-link {
+    text-decoration: none;
+}
+
 
 .portfolio-list {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
-
     color: var(--main-txt-color)
 }
 
 .portfolio-expl {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
-
     color: var(--second-txt-color)
 }
