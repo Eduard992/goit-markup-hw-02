@@ -117,6 +117,9 @@ body {
 }
 
 /* features */
+.listnon {
+    list-style-type: none;
+}
 
 .features {
     font-family: 'Roboto';
@@ -131,10 +134,6 @@ body {
 }
 
 .features-txt {
-    list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
